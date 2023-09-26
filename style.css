@@ -31,9 +31,12 @@
 
 .main-games{
   background-color: blueviolet;
-  height: 120px;
   display: grid;
 
+}
+.main-games-titles{
+  display: grid;
+  background-color: pink;
 }
 
 .main-games-titles-item{
