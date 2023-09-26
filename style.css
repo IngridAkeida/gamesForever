@@ -1,0 +1,45 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  color: white;
+}
+
+.navbar{
+  background-color: black;
+  height: 60px;
+}
+
+.poster{
+  background-color: red;
+  height: 120px;
+}
+
+.main{
+  background-color: blue;
+  
+}
+
+.main-games{
+  background-color: blueviolet;
+  height: 120px;
+}
+
+.main-consoles{
+  background-color: burlywood;
+  height: 120px;
+}
+
+.main-video{
+  background-color: bisque;
+  height: 120px;
+}
+
+.main-articles{
+  background-color: blanchedalmond;
+  height: 120px;
+}
+
+footer{
+  background-color: yellow;
+  height: 120px;
+}
