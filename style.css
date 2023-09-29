@@ -82,8 +82,10 @@ body{
 }
 
 .poster{
-  
-  
+  background-image: url("./image/bg3.png");
+  background-repeat: repeat;
+  background-size: contain;
+  height: 6rem;
 }
 
 .grid{
