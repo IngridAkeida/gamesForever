@@ -23,7 +23,12 @@ img{
   display: block;
 }
 
-body{
+/*Global*/
+:root{
+  --color-bg-primary:#3582AA;
+  --color-bg-secundary: #1a3747;
+  --color-important:#c90808;
+  --color-important:#c94545;
 
 }
 
