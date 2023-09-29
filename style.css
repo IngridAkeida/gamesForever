@@ -33,6 +33,17 @@ img{
 
 }
 
+html{
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: var(--color-bg-secundary1);
+  /*font-family: 'Courier New', Courier, monospace; mudar*/
+  padding-top: 5rem;
+}
+
 .navbar{
   background-color: black;
   width: 100%;
