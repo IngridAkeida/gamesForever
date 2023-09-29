@@ -55,7 +55,6 @@ body{
   top: 0;
   left: 0;
   z-index: 1000;
-  
 }
 
 .container{
@@ -65,6 +64,21 @@ body{
   margin: 0 auto;
   padding: 0 0.5rem;
   max-width: 80rem;
+}
+
+.site-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo{
+  font-size: 2rem;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 1rem;
 }
 
 .poster{
