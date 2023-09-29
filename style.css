@@ -26,9 +26,10 @@ img{
 /*Global*/
 :root{
   --color-bg-primary:#3582AA;
-  --color-bg-secundary: #1a3747;
-  --color-important:#c90808;
-  --color-important:#c94545;
+  --color-bg-secundary1: #1a3747;
+  --color-bg-secondary2: #c9c3d0;
+  --color-important1:#c90808;
+  --color-important2:#c94545;
 
 }
 
