@@ -72,18 +72,17 @@ body{
   align-items: center;
 }
 
-.nav-logo{
-  font-size: 2rem;
+.nav-logo img{
+  height: 3rem;
 }
 
 .nav-menu{
   display: flex;
   gap: 1rem;
 }
-/**/
 
 .poster{
-  background-color: red;
+  
   
 }
 
