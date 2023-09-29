@@ -108,3 +108,19 @@ img{
   background-color: yellow;
   height: 120px;
 }
+
+/*scroll bar*/
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #c9c3d0;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c90808;
+  border-radius: 0px;
+  border: 9px outset #c94545;
+}
