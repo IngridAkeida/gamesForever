@@ -244,21 +244,25 @@ body{
 .games-titles{
   display: grid;
   grid-template-columns: 1fr;
+  gap: 1rem;
+  
 }
 
 .titles-item{
   display: grid;
   grid-template-columns: 1fr;
+  background-color: var(--color-bg-secondary2);
 }
 
 .titles-item-column{
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 0.5rem;
+  align-items: center;
 }
 
 .titles-item-column img{
-  width: 50px;
+  width: 30vw;
 }
 .titles-item-column div{
   display: grid;
