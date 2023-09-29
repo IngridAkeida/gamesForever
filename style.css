@@ -1,7 +1,14 @@
+
+
 *{
   box-sizing:border-box;
   margin: 0;
+  padding: 0;
   color: white;
+}
+
+body{
+
 }
 
 .navbar{
@@ -48,6 +55,7 @@
 .main-games-titles-item-column{
   display: grid;
   grid-template-columns: 2fr 3fr;
+  gap: 0.5rem;
 }
 
 .main-games-titles-item-column img{
