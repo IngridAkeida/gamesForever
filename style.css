@@ -1,4 +1,8 @@
 /*Reset*/
+/*
+
+font-family: 'Press Start 2P', cursive;
+*/
 
 *{
   box-sizing:border-box;
@@ -30,6 +34,8 @@ img{
   --color-bg-secondary2: #c9c3d0;
   --color-important1:#c90808;
   --color-important2:#c94545;
+  /*fonts*/
+  --font-title:'Pixelify Sans', cursive;
 
 }
 
@@ -95,6 +101,7 @@ body{
 {
   text-decoration: none;
   color: #232323;
+  
   
   transition: color 0.3s ease;
 }
@@ -193,6 +200,7 @@ body{
 {
   padding: 10px 0;
   font-size: 22px;
+  font-family: var(--font-title);
 }
 
 .menuToggle input:checked ~ ul
@@ -220,6 +228,7 @@ body{
 
 .poster h1{
   background-color: var(--color-important1);
+  font-family: var(--font-title);
   font-size: 1rem;
   padding: 0.5rem 1rem ;
 }
