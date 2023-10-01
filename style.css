@@ -295,9 +295,6 @@ body{
   width: calc(100%-40rem);
   scroll-snap-type: start;
 }
-.consoles-timeline-item:hover{
-  width: calc(100%-38rem);
-}
 
 .consoles-timeline-item img{
   border-radius: 0.5rem;
