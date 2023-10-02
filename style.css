@@ -8,7 +8,7 @@ font-family: 'Press Start 2P', cursive;
   box-sizing:border-box;
   margin: 0;
   padding: 0;
-  color: #fff;
+  color: #000;
 }
 
 ul,
@@ -290,28 +290,49 @@ body{
   display: grid;
   grid-template-columns: 1fr;
   background-color:var(--color-bg-primary);
-  transition: transform 0.5s;
 }
 
-.titles-item:hover{
+/*usar este elemento dentro de consoles 
+transition: transform 0.5s;*/
+
+/*.titles-item:hover{
   width: 100%;
-  background-color: #c90808;
   transform: scale(1.1);
-}
+}*/
 
 .titles-item-column{
-  display: grid;
-  grid-template-columns: 2fr 3fr;
+  perspective: 150rem;
+  position: relative;
+  height: 9rem;
   gap: 0.5rem;
   align-items: center;
 }
 
 .titles-item-column img{
   width: 30vw;
+  background-size: cover;
+  background-blend-mode: color;
 }
-.titles-item-column div{
-  display: grid;
-  grid-template-columns: 1fr;
+
+.flipping-card-item-side{
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  backface-visibility: hidden;
+  background-position: center;
+  transition: all 1s;
+}
+
+.titles-item-column-back{
+  transform: rotateY(180deg);
+}
+
+.titles-item-column:hover .titles-item-column-front{
+  transform: rotateY(-180deg);
+}
+
+.titles-item-column:hover .titles-item-column-back{
+  transform: rotateY(0);
 }
 
 .consoles-timeline{
