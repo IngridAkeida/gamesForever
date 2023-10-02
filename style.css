@@ -353,7 +353,10 @@ body{
   display: grid;
   grid-template-columns: 1fr;
   background-color: var(--color-bg-primary);
-  
+}
+
+.footer-link{
+  background-color: #000;
 }
 
 /*scroll bar*/
