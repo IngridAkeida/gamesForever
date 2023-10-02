@@ -260,7 +260,7 @@ body{
   75% {
   background-color: purple;
   }
-  }
+}
 
 .grid{
   display: grid;
@@ -385,4 +385,22 @@ body{
   background-color: #c90808;
   border-radius: 0px;
   border: 9px outset #c94545;
+}
+
+@media (min-width: 24rem) {
+  
+
+  .titles-item img{
+    width: 75%;
+  } 
+}
+
+@media (min-width: 28rem) {
+
+  .poster h1{
+    font-size: 2rem;
+  }
+  .games-titles{
+    grid-template-columns: 1fr 1fr;
+  } 
 }
