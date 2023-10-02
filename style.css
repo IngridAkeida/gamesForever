@@ -53,7 +53,7 @@ body{
 /*compenents*/
 
 .navbar{
-  background-color: black;/*retirar depois*/
+  background-color: var(--color-bg-primary);/*retirar depois*/
   width: 100%;
   /*retirar depois*/
   position: fixed;
@@ -80,6 +80,17 @@ body{
 
 .nav-logo img{
   height: 3rem;
+}
+
+.site-nav .gif{
+  position: relative;
+  height: 3rem;
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove{
+  from {left: -200px;}
+  to {left: 200px;}
 }
 
 /*MenuToggle*/
@@ -136,7 +147,7 @@ body{
   margin-bottom: 5px;
   position: relative;
   
-  background: var(--color-bg-primary);
+  background: black;
   border-radius: 3px;
   
   z-index: 1;
