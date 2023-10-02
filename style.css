@@ -429,6 +429,6 @@ body{
 @media (max-width: 68rem) {
 
   .wrapped{
-    width: 1088px;
+    max-width: 1088px;
   } 
 }
