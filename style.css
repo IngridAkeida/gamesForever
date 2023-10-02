@@ -350,9 +350,9 @@ body{
 */
 
 .footer{
-  background-image: url("./image/bg3.png_");
-  background-repeat: repeat;
-  background-size: contain;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--color-bg-primary);
   
 }
 
