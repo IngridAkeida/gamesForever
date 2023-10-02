@@ -214,6 +214,8 @@ body{
   gap: 1rem;
 }*/
 
+/*poster*/
+
 .poster{
   background-image: url("./image/bg3.png");
   background-repeat: repeat;
@@ -230,8 +232,24 @@ body{
   background-color: var(--color-important1);
   font-family: var(--font-title);
   font-size: 1rem;
-  padding: 0.5rem 1rem ;
+  padding: 0.5rem 1rem;
+  animation: myAnimation 5s infinite;
 }
+
+@keyframes myAnimation {
+  0% {
+  background-color: red;
+  }
+  25% {
+  background-color: green;
+  }
+  75% {
+  background-color: blue;
+  }
+  75% {
+  background-color: purple;
+  }
+  }
 
 .grid{
   display: grid;
@@ -254,13 +272,20 @@ body{
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  
+  transition: backgroud-color 0.5s;
 }
 
 .titles-item{
   display: grid;
   grid-template-columns: 1fr;
-  background-color: var(--color-bg-secondary2);
+  background-color:var(--color-bg-primary);
+  transition: transform 0.5s;
+}
+
+.titles-item:hover{
+  width: 100%;
+  background-color: #c90808;
+  transform: scale(1.1);
 }
 
 .titles-item-column{
