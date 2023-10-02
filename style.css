@@ -361,6 +361,11 @@ body{
   width: 95%;
 }
 
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .footer{
   display: grid;
   grid-template-columns: 1fr;
