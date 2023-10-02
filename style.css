@@ -409,3 +409,26 @@ body{
     grid-template-columns: 1fr 1fr;
   } 
 }
+
+@media (min-width: 44rem) {
+  .games-titles{
+    grid-template-columns: 1fr 1fr 1fr;
+  } 
+}
+
+@media (min-width: 64rem) {
+
+  .poster h1{
+    font-size: 2.5rem;
+  }
+  .games-titles{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } 
+}
+
+@media (max-width: 68rem) {
+
+  .wrapped{
+    width: 1088px;
+  } 
+}
