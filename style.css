@@ -307,6 +307,10 @@ body{
   background-blend-mode: color;
 }
 
+.donkey img{
+  width: 75%;
+}
+
 .flipping-card-item-side{
   position: absolute;
   top: 0.5rem;
