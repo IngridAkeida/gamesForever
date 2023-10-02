@@ -350,8 +350,10 @@ body{
 */
 
 .footer{
-  background-color: yellow;
-  height: 120px;
+  background-image: url("./image/bg3.png_");
+  background-repeat: repeat;
+  background-size: contain;
+  
 }
 
 /*scroll bar*/
