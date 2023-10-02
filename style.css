@@ -292,16 +292,6 @@ body{
   background-color:var(--color-bg-primary);
 }
 
-
-
-/*usar este elemento dentro de consoles 
-transition: transform 0.5s;*/
-
-/*.titles-item:hover{
-  width: 100%;
-  transform: scale(1.1);
-}*/
-
 .titles-item-column{
   perspective: 150rem;
   position: relative;
@@ -354,6 +344,12 @@ transition: transform 0.5s;*/
   flex-shrink: 0;
   width: calc(100%-40rem);
   scroll-snap-type: start;
+  opacity: 0.8;
+  transition: transform 2s;
+}
+
+.consoles-timeline-item:hover{
+  opacity: 1;
 }
 
 .consoles-timeline-item img{
