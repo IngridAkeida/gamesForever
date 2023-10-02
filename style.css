@@ -292,6 +292,8 @@ body{
   background-color:var(--color-bg-primary);
 }
 
+
+
 /*usar este elemento dentro de consoles 
 transition: transform 0.5s;*/
 
@@ -309,7 +311,8 @@ transition: transform 0.5s;*/
 }
 
 .titles-item-column img{
-  width: 30vw;
+  width: 80%;
+  margin: 0 auto;
   background-size: cover;
   background-blend-mode: color;
 }
@@ -317,7 +320,6 @@ transition: transform 0.5s;*/
 .flipping-card-item-side{
   position: absolute;
   top: 0.5rem;
-  left: 0;
   backface-visibility: hidden;
   background-position: center;
   transition: all 1s;
@@ -325,6 +327,7 @@ transition: transform 0.5s;*/
 
 .titles-item-column-back{
   transform: rotateY(180deg);
+  left: 0.5rem;
 }
 
 .titles-item-column:hover .titles-item-column-front{
