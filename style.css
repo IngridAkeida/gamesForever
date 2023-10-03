@@ -411,8 +411,8 @@ body{
   text-align: justify;
 }
 
-.sidebar-article>a{
-  color: #c90808;
+.sidebar-article a{
+  color: var(--color-bg-secundary1)
 }
 
 
@@ -518,6 +518,12 @@ body{
   
   .article-img:hover{
     opacity: 0.7;
+  }
+
+  .sidebar-article a:hover{
+    color: var(--color-bg-secondary2);
+    background-color: var(--color-bg-secundary1);
+    border-radius: 0.2rem;
   }
 }
 
