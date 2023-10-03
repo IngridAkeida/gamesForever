@@ -47,7 +47,7 @@ html{
 body{
   background-color: var(--color-bg-secundary1);
   /*font-family: 'Courier New', Courier, monospace; mudar*/
-  padding-top: 5rem;
+  padding-top: 6.5rem;
 }
 
 .section{
@@ -85,18 +85,18 @@ body{
 }
 
 .nav-logo img{
-  height: 3rem;
+  height: 4rem;
 }
 
-.site-nav .gif{
-  position: relative;
+.nav-gif .gif{
+  position: absolute;
   height: 3rem;
   animation: mymove 10s infinite;
 }
 
 @keyframes mymove{
   from {left: -100%;}
-  to {left: 100%;}
+  to {left: 200%;}
 }
 
 /*Menu*/
@@ -446,7 +446,6 @@ body{
 /*media 384px*/
 
 @media (min-width: 24rem) {
-  
 
   .titles-item img{
     width: 75%;
@@ -487,6 +486,7 @@ body{
 
   .nav-logo img{
     height: 4rem;
+    border: 1px red solid;
   }
 
   @keyframes mymove{
