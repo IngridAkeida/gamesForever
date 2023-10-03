@@ -557,6 +557,19 @@ body{
 
 /*media 1024px*/
 @media (min-width: 64rem) {
+  .titles-item-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .titles-item-column img{
+    height: 7rem;
+    width: auto;
+    
+  }
 
   @keyframes mymove{
     from {left: -300px;}
