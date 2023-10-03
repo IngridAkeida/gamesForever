@@ -548,9 +548,6 @@ body{
   .poster h1{
     font-size: 2.5rem;
   }
-  .games-titles{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  } 
 }
 
 /*media 1088px*/
