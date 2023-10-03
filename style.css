@@ -89,8 +89,8 @@ body{
 }
 
 @keyframes mymove{
-  from {left: -200px;}
-  to {left: 200px;}
+  from {left: -100%;}
+  to {left: 100%;}
 }
 
 /*MenuToggle*/
@@ -220,10 +220,9 @@ body{
 }
 /* end MenuToggle*/
 
-/*.menu{
-  display: flex;
-  gap: 1rem;
-}*/
+.menuFlex{
+  display: none;
+}
 
 /*poster*/
 
@@ -392,6 +391,8 @@ body{
   border: 9px outset #c94545;
 }
 
+/*media 384px*/
+
 @media (min-width: 24rem) {
   
 
@@ -400,8 +401,8 @@ body{
   } 
 }
 
+/*media 448px*/
 @media (min-width: 28rem) {
-
   .poster h1{
     font-size: 2rem;
   }
@@ -410,13 +411,55 @@ body{
   } 
 }
 
+/*media 704px*/
 @media (min-width: 44rem) {
+
+  @keyframes mymove{
+    from {left: -200px;}
+    to {left: 100%;}
+  }
+
+
   .games-titles{
     grid-template-columns: 1fr 1fr 1fr;
   } 
+
+  .menuToggle{
+    display: none;
+  }
+
+  .menuFlex{
+    display: flex;
+    border : red 1px solid;
+  }
+
+  .menu2{
+  display: flex;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  }
+
+  .menu2 li{
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    font-family: var(--font-title);
+  }
 }
 
+/*media 800px*/
+@media (min-width: 50rem) {
+  @keyframes mymove{
+    from {left: -250px;}
+    to {left: 100%;}
+  }
+}
+/*media 1024px*/
 @media (min-width: 64rem) {
+
+  @keyframes mymove{
+    from {left: -300px;}
+    to {left: 100%;}
+  }
 
   .poster h1{
     font-size: 2.5rem;
@@ -426,8 +469,12 @@ body{
   } 
 }
 
+/*media 1088px*/
 @media (max-width: 68rem) {
-
+  @keyframes mymove{
+    from {left: -400px;}
+    to {left: 100%;}
+  }
   .wrapped{
     max-width: 1088px;
   } 
