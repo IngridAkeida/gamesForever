@@ -488,7 +488,6 @@ body{
 
   .menuFlex{
     display: flex;
-    border : red 1px solid;
   }
 
   .menu2{
@@ -499,12 +498,16 @@ body{
 
   .menu2 li{
     padding: 1rem 0.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: var(--font-title);
   }
 
+  .menu2 li:hover{
+    background-color: var(--color-important2);
+  }
+
   .poster h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .games-titles{
