@@ -401,14 +401,25 @@ body{
   } 
 }
 
-/*media 448px*/
-@media (min-width: 28rem) {
+/*media 432px*/
+@media (min-width: 27rem) {
   .poster h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .games-titles{
     grid-template-columns: 1fr 1fr;
   } 
+  .titles-item-column img{
+    padding-top: 10%;
+  }
+}
+
+/*media 592px*/
+@media (min-width: 37rem) {
+
+  .titles-item-column img{
+    padding-top: 3%;
+  }
 }
 
 /*media 704px*/
@@ -418,7 +429,9 @@ body{
     from {left: -200px;}
     to {left: 100%;}
   }
-
+  .poster h1{
+    font-size: 2rem;
+  }
 
   .games-titles{
     grid-template-columns: 1fr 1fr 1fr;
