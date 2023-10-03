@@ -477,6 +477,10 @@ body{
 /*media 704px*/
 @media (min-width: 44rem) {
 
+  .nav-logo img{
+    height: 4rem;
+  }
+
   @keyframes mymove{
     from {left: -200px;}
     to {left: 100%;}
@@ -514,10 +518,7 @@ body{
     grid-template-columns: 1fr 1fr;
   } 
 
-  .mario img{
-    width: 63%;
-  }
-
+  .mario img,
   .donkey img{
     width: 63%;
   }
@@ -557,6 +558,14 @@ body{
 
 /*media 1024px*/
 @media (min-width: 64rem) {
+
+  .nav-logo img{
+    height: 5rem;
+  }
+
+  .games-titles{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } 
   .titles-item-column{
     display: flex;
     flex-direction: column;
@@ -567,8 +576,7 @@ body{
 
   .titles-item-column img{
     height: 7rem;
-    width: auto;
-    
+    width: auto;  
   }
 
   @keyframes mymove{
@@ -584,7 +592,18 @@ body{
 }
 
 /*media 1088px*/
+@media (min-width: 68rem){
+  .nav-logo img{
+    height: 5.5rem;
+  }
+
+  .poster{
+    height: 10rem;
+  }
+
+}
 @media (max-width: 68rem) {
+  
   @keyframes mymove{
     from {left: -400px;}
     to {left: 100%;}
