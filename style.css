@@ -477,6 +477,14 @@ body{
 /*media 704px*/
 @media (min-width: 44rem) {
 
+  html{
+    scroll-padding-top: 6rem;
+  }
+  
+  body{
+    padding-top: 6rem;
+  }
+
   .nav-logo img{
     height: 4rem;
   }
@@ -553,18 +561,39 @@ body{
   .poster{
     height: 8rem;
   }
+
+  .titles-item-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .titles-item-column img{
+    height: 7.5rem;
+    width: auto;  
+  }
 }
 
 
 /*media 1024px*/
 @media (min-width: 64rem) {
 
+  html{
+    scroll-padding-top: 7rem;
+  }
+  
+  body{
+    padding-top: 7rem;
+  }
+
   .nav-logo img{
     height: 5rem;
   }
 
   .games-titles{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   } 
   .titles-item-column{
     display: flex;
@@ -575,7 +604,7 @@ body{
   }
 
   .titles-item-column img{
-    height: 7rem;
+    height: 8rem;
     width: auto;  
   }
 
@@ -593,6 +622,15 @@ body{
 
 /*media 1088px*/
 @media (min-width: 68rem){
+
+  html{
+    scroll-padding-top: 7rem;
+  }
+  
+  body{
+    padding-top: 7rem;
+  }
+
   .nav-logo img{
     height: 5.5rem;
   }
