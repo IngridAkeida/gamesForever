@@ -421,6 +421,7 @@ body{
   display: grid;
   grid-template-columns: 1fr;
   background-color: var(--color-bg-primary);
+  margin-bottom: 0;
 }
 
 .footer-link{
@@ -477,11 +478,11 @@ body{
 @media (min-width: 44rem) {
 
   html{
-    scroll-padding-top: 6rem;
+    scroll-padding-top: 6.5rem;
   }
   
   body{
-    padding-top: 6rem;
+    padding-top: 6.5rem;
   }
 
   .nav-logo img{
@@ -581,11 +582,11 @@ body{
 @media (min-width: 64rem) {
 
   html{
-    scroll-padding-top: 7rem;
+    scroll-padding-top: 7.5rem;
   }
   
   body{
-    padding-top: 7rem;
+    padding-top: 7.5rem;
   }
 
   .nav-logo img{
@@ -624,15 +625,15 @@ body{
 @media (min-width: 68rem){
 
   html{
-    scroll-padding-top: 7rem;
+    scroll-padding-top: 9.5rem;
   }
   
   body{
-    padding-top: 7rem;
+    padding-top: 9.5rem;
   }
 
   .nav-logo img{
-    height: 5.5rem;
+    height: 7rem;
   }
 
   .poster{
