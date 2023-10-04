@@ -458,12 +458,13 @@ body{
 
 .footer-link img{
   width: 2rem;
-  transition: ease 1s; 
+  opacity: 0.8;
+  transition: ease 0.5s; 
 }
 
 .footer-link img:hover{
-  background-color: var(--color-bg-secondary2);
   transform: scale(1.1);
+  opacity: 1;
 
 }
 
