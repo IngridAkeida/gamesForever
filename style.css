@@ -481,6 +481,11 @@ body{
   .titles-item-column img{
     padding-top: 10%;
   }
+  .aside{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
 }
 
 /*media 592px*/
