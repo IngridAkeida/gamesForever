@@ -566,6 +566,15 @@ body{
     opacity: 0.7;
   }
 
+  .video{
+    height: 25rem;
+  }
+
+  .video iframe{
+    width: 100%;
+    height: 100%;
+  }
+
   .sidebar-article a:hover{
     color: var(--color-bg-secondary2);
     background-color: var(--color-bg-secundary1);
@@ -581,7 +590,7 @@ body{
   }
   .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 7fr 3fr;
     gap: 1rem;
   }
 
@@ -600,6 +609,10 @@ body{
   .titles-item-column img{
     height: 7.5rem;
     width: auto;  
+  }
+
+  .video{
+    height: 18rem;
   }
 
   .aside{
@@ -649,6 +662,10 @@ body{
   .poster h1{
     font-size: 2.5rem;
   }
+
+  .video{
+    height: 25rem;
+  }
 }
 
 /*media 1088px*/
@@ -668,6 +685,10 @@ body{
 
   .poster{
     height: 10rem;
+  }
+
+  .video{
+    height: 22rem;
   }
 
 }
