@@ -447,13 +447,25 @@ body{
   padding: 0.5rem 0;
 }
 
-
+.footer-link{
+  margin: 0.5rem;
+}
 .footer-link ul{
   display: flex;
   justify-content: end;
+  gap: 0.5rem;
 }
 
-.footer
+.footer-link img{
+  width: 2rem;
+  transition: ease 1s; 
+}
+
+.footer-link img:hover{
+  background-color: var(--color-bg-secondary2);
+  transform: scale(1.1);
+
+}
 
 /*scroll bar*/
 /* Chrome, Edge, and Safari */
