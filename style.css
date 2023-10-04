@@ -55,6 +55,17 @@ body{
   margin-bottom: 1rem;
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.section--heading{
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
 
 /*compenents*/
 
@@ -264,17 +275,6 @@ body{
   75% {
   background-color: purple;
   }
-}
-
-.grid{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-.section--heading{
-  padding: 0.5rem 0;
-  margin-bottom: 1rem;
 }
 
 /*Main games*/
