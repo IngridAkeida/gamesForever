@@ -437,13 +437,13 @@ body{
 }
 
 *::-webkit-scrollbar-track {
-  background: #c9c3d0;
+  background: var(--color-bg-primary);
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: #c90808;
   border-radius: 0px;
-  border: 9px outset #c94545;
+  border: 3px outset #c94545;
 }
 
 /*media 384px*/
