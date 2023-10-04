@@ -443,14 +443,17 @@ body{
 
 .footer-parts{
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr ifr;
   padding: 0.5rem 0;
 }
 
 
-.footer-link{
-  background-color: #000;
+.footer-link ul{
+  display: flex;
+  justify-content: end;
 }
+
+.footer
 
 /*scroll bar*/
 /* Chrome, Edge, and Safari */
@@ -492,6 +495,10 @@ body{
     display: grid;
     grid-template-columns: 1fr ;
     gap: 1rem;
+  }
+  .footer-parts{
+    grid-template-columns: 2fr 3fr;
+    gap: 0.5rem;
   }
 }
 
