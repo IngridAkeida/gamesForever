@@ -477,6 +477,8 @@ button{
 
 .form{
   padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-title{
