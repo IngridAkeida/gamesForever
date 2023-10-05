@@ -523,7 +523,7 @@ button{
 .references h3,
 .explore h3,
 .footer-link h3{
-  padding: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .about,
@@ -553,6 +553,7 @@ button{
 }
 
 .footer-link ul{
+  padding-top: 0.5rem;
   display: flex;
   justify-content: end;
   gap: 0.5rem;
