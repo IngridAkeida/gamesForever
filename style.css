@@ -71,8 +71,7 @@ button{
 
 .section--heading{
   padding: 0.5rem 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
@@ -350,7 +349,7 @@ button{
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  gap: 1rem;
+  gap: 0.5rem;
   height: 9rem;
   max-width: 85vw;
 }
