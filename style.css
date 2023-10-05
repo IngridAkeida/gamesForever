@@ -452,7 +452,7 @@ button{
 
 .footer-parts{
   display: grid;
-  grid-template-columns: 2fr 5fr;
+  grid-template-columns: 1fr;
   gap: 0.5rem;
   padding: 0.5rem 0;
   padding-top: 1rem;
@@ -474,8 +474,9 @@ button{
 .form-fill input,
 .form-fill textarea{
   background-color: #1a3747;
-  width: 200%;
+  width: 150%;
   border-radius: 0.4rem;
+  padding: 0.5rem;
 }
 
 .form label{
@@ -483,7 +484,7 @@ button{
 }
 
 .button-submit{
-  width: 50%;
+  width: 75%;
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 0.4rem;
@@ -499,7 +500,12 @@ button{
 }
 
 .footer-link{
-  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
 }
 
 .footer-link ul{
