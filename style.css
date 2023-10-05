@@ -30,6 +30,7 @@ img{
 /*Global*/
 :root{
   --color-bg-primary:#3582AA;
+  --color-bg-primaryTr:#3582AAcc;
   --color-bg-secundary1: #1a3747;
   --color-bg-secondary2: #c9c3d0;
   --color-important1:#c90808;
@@ -398,7 +399,19 @@ button{
 
 /*Articles*/
 
-.sidebar{
+.sidebar-article{
+  background-color: var(--color-bg-primaryTr); 
+}
+
+
+.sidebar-article a{
+  color: var(--color-bg-secondary2);
+  padding-left: 0.5rem; 
+  padding-bottom: 0.5rem;
+}
+
+.sidebar-article a:hover{
+  color: var(--color-bg-secundary1);
   
 }
 
@@ -654,12 +667,6 @@ button{
   .video iframe{
     width: 100%;
     height: 100%;
-  }
-
-  .sidebar-article a:hover{
-    color: var(--color-bg-secondary2);
-    background-color: var(--color-bg-secundary1);
-    border-radius: 0.2rem;
   }
 }
 
