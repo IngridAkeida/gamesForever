@@ -459,7 +459,7 @@ button{
 }
 
 .form{
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .form-title{
@@ -505,6 +505,7 @@ button{
   align-items: center;
   text-align: center;
   justify-content: center;
+  padding-bottom: 0.5rem;
   
 }
 
@@ -564,7 +565,7 @@ button{
   }
   .aside{
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
   .footer-parts{
@@ -578,11 +579,6 @@ button{
 
   .titles-item-column img{
     padding-top: 3%;
-  }
-  .aside{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
   }
 }
 
