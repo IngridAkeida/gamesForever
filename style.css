@@ -516,6 +516,15 @@ button{
   color: var(--color-bg-primary);
 }
 
+
+.about h3,
+.references h3,
+.explore h3,
+.footer-link h3{
+  padding: 0.5rem;
+}
+
+.about,
 .footer-link{
   display: flex;
   flex-direction: column;
@@ -523,7 +532,6 @@ button{
   text-align: center;
   justify-content: center;
   padding-bottom: 0.5rem;
-  
 }
 
 .footer-link ul{
