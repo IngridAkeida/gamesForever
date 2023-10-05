@@ -536,6 +536,22 @@ button{
   padding-bottom: 0.5rem;
 }
 
+.externalLinks{
+  display: flex;
+  text-align: start;
+  justify-content:space-around;
+  padding-bottom: 0.5rem;
+  gap: 1rem;
+}
+
+.externalLinks li{
+  list-style:circle;
+}
+
+.externalLinks ul{
+  padding-left: 0.5rem;
+}
+
 .footer-link ul{
   display: flex;
   justify-content: end;
