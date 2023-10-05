@@ -452,12 +452,13 @@ button{
 
 .footer-parts{
   display: grid;
-  grid-template-columns: 1fr ifr;
+  grid-template-columns: 2fr 5fr;
+  gap: 0.5rem;
   padding: 0.5rem 0;
+  padding-top: 1rem;
 }
 
 .form{
-  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -473,6 +474,7 @@ button{
 .form-fill input,
 .form-fill textarea{
   background-color: #1a3747;
+  width: 200%;
   border-radius: 0.4rem;
 }
 
