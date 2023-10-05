@@ -320,7 +320,7 @@ body{
   top: 0.5rem;
   backface-visibility: hidden;
   background-position: center;
-  transition: all 1s;
+  transition: all 1.5s;
 }
 
 .titles-item-column-back{
