@@ -84,8 +84,81 @@
 /* FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 [value="All"]:checked ~ .filters [for="All"],
-[value="CSS"]:checked ~ .filters [for="CSS"],
+
+
+[value="mario"]:checked ~ .filters [for="mario"],
+[value="tloz"]:checked ~ .filters [for="JavaScript"],
 [value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+[value="JavaScript"]:checked ~ .filters [for="JavaScript"],
+
+
 [value="jQuery"]:checked ~ .filters [for="jQuery"],
 [value="WordPress"]:checked ~ .filters [for="WordPress"],
 [value="Slider"]:checked ~ .filters [for="Slider"],
