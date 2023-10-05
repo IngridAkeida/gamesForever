@@ -532,25 +532,25 @@
     <div class="wrapped">
       <div class="footer-parts">
         <div class="form">
-          <h4>Give Feedback to Our Website.</h4>
+          <h4 class="form-title">Give Feedback to Our Website.</h4>
           <form action="mailto:info@w3docs.com" method="get" enctype="text/plain">
-            <div>
+            <div class="form-fill">
               <label for="name">Name:
                 <input type="text" name="name" id="name" />
               </label>
             </div>
-            <div>
+            <div class="form-fill">
               <label for="email">Email:
-                <input type="text" name="email" id="email" />
+                <input type="email" name="email" id="email" required />
               </label>
             </div>
-            <div>
+            <div class="form-fill">
               <label>Comments:</label>
               <br />
               <textarea name="comments" rows="3" cols="30">Send your comments to us.</textarea>
             </div>
             <div>
-              <button type="submit" form="form" value="Send">Submit</button>
+              <button class="button-submit" type="submit" form="form" value="Send">Send</button>
             </div>
           </form>
         </div>

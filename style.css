@@ -34,6 +34,8 @@ img{
   --color-bg-secondary2: #c9c3d0;
   --color-important1:#c90808;
   --color-important2:#c94545;
+  --color-confirmation:#0a8a15;
+
   /*fonts*/
   --font-title:'Pixelify Sans', cursive;
 
@@ -51,7 +53,8 @@ body{
 }
 
 button{
-  background-color: var(--color-important1);
+  background-color: var(--color-confirmation);
+  padding: 0.1rem 0;
 }
 
 .section{
@@ -435,6 +438,7 @@ button{
 
 .article img{
   opacity: 0.3;
+
 }
 
 
@@ -452,9 +456,50 @@ button{
   padding: 0.5rem 0;
 }
 
+.form{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.form-title{
+  padding-bottom: 0.5rem;
+}
+
+.form-fill{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-fill input,
+.form-fill textarea{
+  background-color: #1a3747;
+  border-radius: 0.4rem;
+}
+
+.form label{
+  font-weight: bold;
+}
+
+.button-submit{
+  width: 50%;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+}
+
+.button-submit:hover{
+  transform: scale(1.1);
+}
+
+.button-submit:active{
+  background-color: var(--color-bg-secundary1);
+  color: var(--color-bg-primary);
+}
+
 .footer-link{
   margin: 0.5rem;
 }
+
 .footer-link ul{
   display: flex;
   justify-content: end;
