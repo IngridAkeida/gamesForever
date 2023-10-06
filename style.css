@@ -481,6 +481,8 @@ input[type="radio"] {
   opacity: 0.3;
 
 }
+/*accordion*/
+
 
 /*history page*/
 
@@ -512,8 +514,6 @@ input[type="radio"] {
   display: grid;
   grid-template-columns: 1fr;
 }
-
-
 
 /*Footer*/
 .footer{
