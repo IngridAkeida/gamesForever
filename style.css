@@ -239,7 +239,7 @@ input[type="radio"] {
   padding: 1rem 0.5rem;
   padding-top: 125px;
   
-  background: linear-gradient(to top, #1a3747 0%, #3582AA 80%);
+  background: linear-gradient(to top, #1a3747cc 0%, #3582AA 80%);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
