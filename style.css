@@ -112,6 +112,18 @@ input[type="radio"] {
 
 .nav-logo img{
   height: 4rem;
+  border-radius: 1rem;
+  border: var(--color-bg-secondary2) solid 1px;
+}
+
+@keyframes jump {
+  0%   {transform: translate3d(0,-60%,0) scale3d(1);}
+  40%  {transform: translate3d(0,-10%,0) scale3d(1.1);}
+  100% {transform: translate3d(0,20%,0) scale3d(1,1,1);}
+}
+.jump {
+  transform-origin: 50% 50%;
+  animation: jump 0.8s linear alternate infinite;
 }
 
 .nav-gif .gif{
