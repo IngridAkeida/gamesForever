@@ -495,11 +495,23 @@ input[type="radio"] {
 }
 
 .history-font{
-  
+  font-size: 0.5rem;
+  font-weight: 200;
+  font-style: italic;
+  padding-top: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+.history-shortInformation{
+  background-color:#3582AAcc;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .img-nintendo{
   height: 8rem;
+  background-color: #0a8a15;
 }
 
 .history{
