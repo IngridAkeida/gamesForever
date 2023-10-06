@@ -358,6 +358,13 @@ input[type="radio"] {
   transform: rotateY(0);
 }
 
+/*text*/
+
+.history{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 /*consoles*/
 
 .consoles-timeline{
