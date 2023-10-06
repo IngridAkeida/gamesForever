@@ -357,14 +357,6 @@ input[type="radio"] {
 .titles-item-column:hover .titles-item-column-back{
   transform: rotateY(0);
 }
-
-/*text*/
-
-.history{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 /*consoles*/
 
 .consoles-timeline{
@@ -489,6 +481,32 @@ input[type="radio"] {
   opacity: 0.3;
 
 }
+
+/*history page*/
+
+.carrousel{
+  height: 200px;
+  background-color: #c90808;
+  /*provisory*/
+}
+
+.history-title{
+  padding-top: 1rem;
+}
+
+.history-font{
+  
+}
+
+.img-nintendo{
+  height: 8rem;
+}
+
+.history{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 
 
 /*Footer*/
