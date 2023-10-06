@@ -1,12 +1,12 @@
-.transition, ul li i:before, ul li i:after, p {
+.transition, .history-accordion li i:before, .history-accordion li i:after, .accordion-paragraph {
   transition: all 0.25s ease-in-out;
 }
 
-ul li, h1 {
+.history-accordion li, h1 {
   animation: flipdown 0.5s ease both;
 }
 
-h2 {
+.accordion-heading {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -16,42 +16,6 @@ h2 {
   user-select: none;
 }
 
-html {
-  width: 100%;
-  height: 100%;
-  perspective: 900;
-  overflow-y: scroll;
-  background-color: #dce7eb;
-  font-family: "Titillium Web", sans-serif;
-  color: rgba(48, 69, 92, 0.8);
-}
-
-body {
-  min-height: 0;
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  margin: 90px 0;
-  transform: translate(-50%, 0);
-  box-shadow: 0 10px 0 0 #ff6873 inset;
-  background-color: #fefffa;
-  max-width: 450px;
-  padding: 30px;
-}
-@media (max-width: 550px) {
-  body {
-    box-sizing: border-box;
-    transform: translate(0, 0);
-    max-width: 100%;
-    min-height: 100%;
-    margin: 0;
-    left: 0;
-  }
-}
-
-h1, h2 {
-  color: #ff6873;
-}
 
 h1 {
   text-transform: uppercase;
@@ -61,7 +25,7 @@ h1 {
   font-weight: 100;
 }
 
-h2 {
+.accordion-heading{
   font-size: 26px;
   line-height: 34px;
   font-weight: 300;
@@ -72,7 +36,7 @@ h2 {
   cursor: pointer;
 }
 
-p {
+accordion-paragraph {
   color: rgba(48, 69, 92, 0.8);
   font-size: 17px;
   line-height: 26px;
@@ -86,13 +50,13 @@ p {
   z-index: 2;
 }
 
-ul {
+.history-accordion {
   list-style: none;
   perspective: 900;
   padding: 0;
   margin: 0;
 }
-ul li {
+.history-accordion li {
   position: relative;
   padding: 0;
   margin: 0;
@@ -100,38 +64,38 @@ ul li {
   padding-top: 18px;
   border-top: 1px dotted #dce7eb;
 }
-ul li:nth-of-type(1) {
+.history-accordion li:nth-of-type(1) {
   animation-delay: 0.5s;
 }
-ul li:nth-of-type(2) {
+.history-accordion li:nth-of-type(2) {
   animation-delay: 0.75s;
 }
-ul li:nth-of-type(3) {
+.history-accordion li:nth-of-type(3) {
   animation-delay: 1s;
 }
-ul li:last-of-type {
+.history-accordion li:last-of-type {
   padding-bottom: 0;
 }
-ul li i {
+.history-accordion li i {
   position: absolute;
   transform: translate(-6px, 0);
   margin-top: 16px;
   right: 0;
 }
-ul li i:before, ul li i:after {
+.history-accordion li i:before, .history-accordion li i:after {
   content: "";
   position: absolute;
   background-color: #ff6873;
   width: 3px;
   height: 9px;
 }
-ul li i:before {
+.history-accordion li i:before {
   transform: translate(-2px, 0) rotate(45deg);
 }
-ul li i:after {
+.history-accordion li i:after {
   transform: translate(2px, 0) rotate(-45deg);
 }
-ul li input[type=checkbox] {
+.history-accordion li input[type=checkbox] {
   position: absolute;
   cursor: pointer;
   width: 100%;
@@ -139,16 +103,16 @@ ul li input[type=checkbox] {
   z-index: 1;
   opacity: 0;
 }
-ul li input[type=checkbox]:checked ~ p {
+.history-accordion li input[type=checkbox]:checked ~ .accordion-paragraph {
   margin-top: 0;
   max-height: 0;
   opacity: 0;
   transform: translate(0, 50%);
 }
-ul li input[type=checkbox]:checked ~ i:before {
+.history-accordion li input[type=checkbox]:checked ~ i:before {
   transform: translate(2px, 0) rotate(45deg);
 }
-ul li input[type=checkbox]:checked ~ i:after {
+.history-accordion li input[type=checkbox]:checked ~ i:after {
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
