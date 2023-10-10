@@ -63,10 +63,10 @@ button{
   padding: 0.1rem 0;
 }
 
-input[type="radio"] {
+/*input[type="radio"] {
   position: absolute;
-  left: -9999px;
-}
+  left: -1000rem;
+}*/
 
 .container{
   display: grid;
@@ -170,8 +170,8 @@ input[type="radio"] {
 .menuToggle input
 {
   display: block;
-  width: 40px;
-  height: 32px;
+  width: 2.5rem;
+  height: 2rem;
   position: absolute;
   top: -7px;
   left: -5px;
