@@ -937,6 +937,15 @@ input[type="radio"] {
     width: 100%;
     height: 100%;
   }
+
+  .history{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 1rem;
+  }
+  .history-card{
+    grid-template-columns: 1fr;
+  }
 }
 
 /*media 800px*/
