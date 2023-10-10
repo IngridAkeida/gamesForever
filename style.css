@@ -63,11 +63,6 @@ button{
   padding: 0.1rem 0;
 }
 
-/*input[type="radio"] {
-  position: absolute;
-  left: -1000rem;
-}*/
-
 .container{
   display: grid;
   grid-gap: 10px;
@@ -265,6 +260,7 @@ button{
 
 .menuFlex{
   display: none;
+  z-index: 1;
 }
 
 /*poster*/
