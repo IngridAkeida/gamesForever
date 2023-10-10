@@ -439,6 +439,11 @@ button{
   /*provisory*/
 }
 
+.container-history{
+  display: flex;
+  flex-direction: column;
+  max-width: 80rem;
+}
 .nav-history{
   display: flex;
   justify-content: space-around;
