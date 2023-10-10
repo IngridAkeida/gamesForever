@@ -433,11 +433,7 @@ button{
 
 /*history page*/
 
-.carrousel{
-  height: 12.5rem;
-  background-color: #c90808;
-  /*provisory*/
-}
+
 
 .container-history{
   display: flex;
