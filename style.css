@@ -263,6 +263,11 @@ button{
   z-index: 1;
 }
 
+.menuFlex a{
+  color: var(--color-decoration);
+  font-weight: bold;
+}
+
 /*poster*/
 
 .poster{
