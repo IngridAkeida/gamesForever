@@ -946,6 +946,12 @@ input[type="radio"] {
   .history-card{
     grid-template-columns: 1fr;
     margin-top: 0;
+    padding:0;
+  }
+
+  .history-gif .gif{
+    padding-top: 0;
+    width: 8rem;
   }
 }
 
