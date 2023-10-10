@@ -5,6 +5,12 @@
   "hints": {
     "disown-opener": "off",
     "axe/keyboard": "off",
-    "axe/name-role-value": "off"
+    "axe/name-role-value": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ]
   }
 }
