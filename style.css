@@ -1089,6 +1089,10 @@ button{
     height: 22rem;
   }
 
+  .jump {
+    animation:none;
+  }
+
 }
 
 /*max media responsiveness*/
@@ -1100,5 +1104,5 @@ button{
   }
   .wrapped{
     max-width: 1088px;
-  } 
+  }
 }
