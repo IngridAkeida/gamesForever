@@ -6,10 +6,14 @@
 </div>
 
 ## About The Project 
-<p>This is a study project to improve knowledge during the FrontEnd developer course at <a href="https://www.hyperisland.com/">Hyper Island</a>.</p>
-<p> I really like the Nintendo gaming universe 🍄🐢🎮, so my inspiration for this project was about the universe and colors of the Mario Bros world and the others Nintendo Games.</p>
+<p>
+This is the project where I was able to apply the knowledge acquired during the Fundamentals in the FrontEnd Developer course at <a href="https://www.hyperisland.com/">Hyper Island</a>. 
+The project brief was to create a 90's website with HTML and CSS, responsive, fluid sizes, and with good development practices. I believe that I can achieve the aspects highlighted in the Brief. Furthermore, I feel that I achieved my personal goals for this project and learned a lot during the construction of it.
+</p>
 
-## Access the project [Here](https://games-forever.netlify.app/). 
+<p> I really like the Nintendo gaming universe 🍄🐢🎮, so my inspiration for this project was about the universe and colors of the Mario Bros world and others Nintendo Games.</p>
+
+## Access my project [Here](https://games-forever.netlify.app/) 🥰. 
 
 
 <div align="center">
