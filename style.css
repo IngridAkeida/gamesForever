@@ -8,7 +8,7 @@ font-family: 'Press Start 2P', cursive;
   box-sizing:border-box;
   margin: 0;
   padding: 0;
-  color: #fff
+  color: #fff;
 }
 
 ul,
@@ -32,12 +32,14 @@ img{
 
 /*Global*/
 :root{
+  /*colours*/
   --color-bg-primary:#3582AA;
   --color-bg-primaryTr:#3582AAcc;
   --color-bg-secundary1: #1a3747;
   --color-bg-secondary2: #c9c3d0;
   --color-important1:#c90808;
   --color-important2:#c94545;
+  --color-decoration:#232323;
   --color-confirmation:#0a8a15;
 
   /*fonts*/
@@ -51,7 +53,7 @@ html{
 
 body{
   background-color: var(--color-bg-secundary1);
-  /*font-family: 'Courier New', Courier, monospace; mudar*/
+  font-family: Arial, Helvetica, sans-serif;
   padding-top: 6.5rem;
 }
 
@@ -154,7 +156,7 @@ input[type="radio"] {
 .menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: var(--color-decoration);
   
   
   transition: color 0.3s ease;
@@ -216,7 +218,7 @@ input[type="radio"] {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: var(--color-decoration);
 }
 
 .menuToggle input:checked ~ span:nth-last-child(3)
@@ -408,7 +410,7 @@ input[type="radio"] {
 .article-text h3, 
 .article-text p{
   color:var(--color-bg-secondary2);
-  text-shadow: 0px 2px 10px #1a3747;
+  text-shadow: 0px 2px 10px var(--color-bg-secundary1);
 }
 .article-text h3{
   padding-top: 1rem;
@@ -474,7 +476,7 @@ input[type="radio"] {
   margin: 0;
   padding-bottom: 4px;
   padding-top: 18px;
-  border-top: 1px dotted #dce7eb;
+  border-top: 1px dotted var(--color-bg-secondary2);
 }
 .history-accordion li:nth-of-type(1) {
   animation-delay: 0.5s;
@@ -497,7 +499,7 @@ input[type="radio"] {
 .history-accordion li i:before, .history-accordion li i:after {
   content: "";
   position: absolute;
-  background-color: #ff6873;
+  background-color: var(--color-bg-secondary2);
   width: 3px;
   height: 9px;
 }
@@ -561,7 +563,7 @@ input[type="radio"] {
 }
 
 .history-background{
-  background-color: #3582AAcc;
+  background-color: var(--color-bg-primaryTr);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
@@ -610,7 +612,7 @@ input[type="radio"] {
   padding: 0 0.5rem;
   scroll-snap-type: start;
 
-  box-shadow: 0px 2px 10px #1a3747;
+  box-shadow: 0px 2px 10px var(--color-decoration);
   border-radius: 0.2rem;
   background-color: var(--color-bg-secondary2);
   height: 8.5rem;
@@ -671,7 +673,7 @@ input[type="radio"] {
 
 .form-fill input,
 .form-fill textarea{
-  background-color: #1a3747;
+  background-color: var(--color-bg-secundary1);
   width: 150%;
   border-radius: 0.4rem;
   padding: 0.5rem;
@@ -760,9 +762,9 @@ input[type="radio"] {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #c90808;
+  background-color: var(--color-important1);
   border-radius: 0px;
-  border: 3px outset #c94545;
+  border: 3px outset var(--color-important2);
 }
 
 /*media 384px*/
