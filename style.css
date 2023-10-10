@@ -444,7 +444,7 @@ input[type="radio"] {
   align-items: center;
   margin-top: 1rem;
   padding: 0.5rem 0;
-  background-color: #3582AA;
+  background-color: var(--color-bg-primaryTr);
   border-radius: 0.5rem;
 }
 
@@ -940,8 +940,12 @@ input[type="radio"] {
 
   .history{
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 1.5fr 4.5fr;
     gap: 1rem;
+  }
+
+  .history-summary{
+    margin-top: 0.5rem;
   }
   .history-card{
     grid-template-columns: 1fr;
@@ -953,6 +957,15 @@ input[type="radio"] {
     padding-top: 0;
     width: 8rem;
   }
+
+  .founded-title{
+    font-size: 1.5rem;
+  }
+  
+  .founded-about{
+    font-size: 1rem;
+  }
+  
 }
 
 /*media 800px*/
@@ -1004,6 +1017,10 @@ input[type="radio"] {
     padding-top: 7.5rem;
   }
 
+  #body{
+    padding-top: 7rem;
+  }
+
   .nav-logo img{
     height: 5rem;
   }
@@ -1049,6 +1066,10 @@ input[type="radio"] {
   
   body{
     padding-top: 9.5rem;
+  }
+
+  #body{
+    padding-top: 9rem;
   }
 
   .nav-logo img{
