@@ -334,11 +334,13 @@ button{
   background-size: cover;
   background-blend-mode: color;
 }
-
-.donkey img{
-  width: 75%;
+.zelda img,
+.mario img{
+  width: 70%;
 }
-
+.donkey img{
+  width: 60%;
+}
 .flipping-card-item-side{
   position: absolute;
   top: 0.5rem;
@@ -821,12 +823,15 @@ button{
 }
 
 /*media 384px*/
-
 @media (min-width: 24rem) {
 
-  .titles-item img{
-    width: 75%;
-  } 
+.zelda img,
+.mario img{
+  width: 60%;
+}
+.donkey img{
+  width: 50%;
+}
 
   .form{
     width: 60%;
