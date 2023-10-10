@@ -54,6 +54,10 @@ body{
   padding-top: 6.5rem;
 }
 
+#body{
+  padding-top: 6rem;
+}
+
 button{
   background-color: var(--color-confirmation);
   padding: 0.1rem 0;
