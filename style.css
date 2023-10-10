@@ -464,8 +464,13 @@ input[type="radio"] {
 .history-summary{
   margin-top: 1rem;
   padding-right: 0.5rem;
+  padding-left: 1rem;
 }
 
+.history-title{
+  padding-left: 0.5rem;
+  font-size: 2rem;
+}
 .history-font{
   font-size: 0.5rem;
   font-weight: 200;
