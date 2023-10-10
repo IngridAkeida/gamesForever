@@ -562,6 +562,17 @@ input[type="radio"] {
   /*provisory*/
 }
 
+.nav-history{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.nav-history a:hover{
+  color: var(--color-bg-primaryTr);
+}
+
 .history-card{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -607,7 +618,6 @@ input[type="radio"] {
   display: grid;
   grid-template-columns: 1fr;
 }
-
 
 /*consoles*/
 
