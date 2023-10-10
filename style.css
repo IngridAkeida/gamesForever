@@ -571,15 +571,21 @@ input[type="radio"] {
   margin-top: 1rem;
 }
 
+.history-summary{
+  margin-top: 1rem;
+}
+
 .history-font{
   font-size: 0.5rem;
   font-weight: 200;
   font-style: italic;
+  padding-left: 0.5rem;
 }
 
 .img-nintendo{
+  margin-top: 10%;
   object-fit: cover;
-  height: 4rem;
+  height: 3rem;
   width: 10rem;
 }
 
@@ -587,6 +593,14 @@ input[type="radio"] {
   margin: 0 auto;
   padding-top: 10%;
   width: 6rem;
+}
+
+.founded-title{
+  font-size: 1rem;
+}
+
+.founded-about{
+  font-size: 0.8rem;
 }
 
 .history{
