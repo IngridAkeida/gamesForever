@@ -7,14 +7,16 @@
 
 ## About The Project 
 <p>This is a study project to improve knowledge during the FrontEnd developer course at <a href="https://www.hyperisland.com/">Hyper Island</a>.</p>
-<p> I really like the Nintendo gaming universe, so my inspiration for this project was about the universe and colors of the Mário Bros world.</p>
+<p> I really like the Nintendo gaming universe, so my inspiration for this project was about the universe and colors of the Mario Bros world.</p>
 
 ## Access the project [Here](https://games-forever.netlify.app/). 
 
 
-<!--<div align="center">
-<img src="https://sobreadalovelace.netlify.app/" alt="print" width="500" height="500"/>
-</div>-->
+<div align="center">
+<img src="./image/games/The-Legend-of-Zelda-Logo.png" alt="print" width="200"/>
+<img src="./image/games/The-Legend-of-Zelda-Logo.png" alt="print" width="200"/>
+<img src="./image/games/The-Legend-of-Zelda-Logo.png" alt="print" width="200"/>
+</div>
 
 
 ## Built With
