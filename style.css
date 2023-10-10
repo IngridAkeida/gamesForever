@@ -67,7 +67,6 @@ input[type="radio"] {
 .container{
   display: grid;
   grid-gap: 10px;
-  width: 90%;
   margin: 0 auto;
   padding: 0 0.5rem;
   max-width: 80rem;
@@ -427,7 +426,11 @@ input[type="radio"] {
 
 }
 
+/*page 2*/
+
 /*accordion*/
+
+
 
 .transition, .history-accordion li i:before, .history-accordion li i:after, .accordion-paragraph {
   transition: all 0.25s ease-in-out;
@@ -559,7 +562,9 @@ input[type="radio"] {
   /*provisory*/
 }
 
-.history-background{
+.history-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: var(--color-bg-primaryTr);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
@@ -577,6 +582,13 @@ input[type="radio"] {
   height: 4rem;
   width: 10rem;
 }
+
+.history-gif .gif{
+  margin: 0 auto;
+  padding-top: 10%;
+  width: 6rem;
+}
+
 .history{
   display: grid;
   grid-template-columns: 1fr;
