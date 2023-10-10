@@ -64,6 +64,15 @@ input[type="radio"] {
   left: -9999px;
 }
 
+.container{
+  display: grid;
+  grid-gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  max-width: 80rem;
+}
+
 .section{
   padding: 0 0.5rem;
   margin-bottom: 1rem;
@@ -91,15 +100,6 @@ input[type="radio"] {
   top: 0;
   left: 0;
   z-index: 1000;
-}
-
-.container{
-  display: grid;
-  grid-gap: 10px;
-  width: 90%;
-  margin: 0 auto;
-  padding: 0 0.5rem;
-  max-width: 80rem;
 }
 
 .site-nav{
