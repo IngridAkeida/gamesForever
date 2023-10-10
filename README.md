@@ -6,11 +6,8 @@
 </div>
 
 ## About The Project 
-
-<i>
- 
-
-</i>
+<p>This is a study project to improve knowledge during the FrontEnd developer course at <a href="https://www.hyperisland.com/">Hyper Island</a>.</p>
+<p> I really like the Nintendo gaming universe, so my inspiration for this project was about the universe and colors of the Mário Bros world.</p>
 
 ## Access the project [Here](https://games-forever.netlify.app/). 
 
