@@ -640,7 +640,7 @@ input[type="radio"] {
   scroll-behavior: smooth;
   gap: 0.5rem;
   height: 9rem;
-  max-width: 85vw;
+  max-width: 95vw;
 }
 
 .consoles-timeline-item{
