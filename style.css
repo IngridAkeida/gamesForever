@@ -449,7 +449,8 @@ input[type="radio"] {
 }
 
 .nav-history a:hover{
-  color: var(--color-bg-primaryTr);
+  color: var(--color-bg-secundary1);
+  font-weight: 800;
 }
 
 .history-card{
