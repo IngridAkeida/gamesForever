@@ -696,8 +696,8 @@ input[type="radio"] {
 }
 
 .footer-parts{
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 0.5rem;
   padding: 0.5rem 0;
   padding-top: 1rem;
@@ -707,15 +707,12 @@ input[type="radio"] {
   padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
-}
-
-.form-title{
-  padding-bottom: 0.5rem;
+  width: 65%;
 }
 
 .form-fill{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-fill input,
@@ -821,6 +818,11 @@ input[type="radio"] {
   .titles-item img{
     width: 75%;
   } 
+
+  .form{
+    width: 60%;
+  }
+  
 }
 
 /*media 432px*/
@@ -840,6 +842,7 @@ input[type="radio"] {
     gap: 1rem;
   }
   .footer-parts{
+    display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 0.5rem;
   }
