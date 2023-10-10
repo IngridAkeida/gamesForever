@@ -573,8 +573,8 @@ button{
 
 .history-accordion li i{
   position: absolute;
-  transform: translate(-6px, 0);
-  margin-top: 16px;
+  transform: translate(-1rem, 0);
+  margin-top: 0.5rem;
   right: 0;
 }
 
@@ -582,8 +582,8 @@ button{
   content: "";
   position: absolute;
   background-color: var(--color-bg-secondary2);
-  width: 3px;
-  height: 9px;
+  width: 0.25rem;
+  height: 0.5rem;
 }
 
 .history-accordion li i:before {
@@ -807,7 +807,7 @@ button{
 
 /*scroll bar-default for every page*/
 *::-webkit-scrollbar {
-  width: 16px;
+  width: 1rem;
 }
 
 *::-webkit-scrollbar-track {
@@ -972,7 +972,7 @@ button{
 /*media 800px*/
 @media (min-width: 50rem) {
   @keyframes mymove{
-    from {left: -250px;}
+    from {left: -16rem}
     to {left: 100%;}
   }
   .grid-main{
@@ -1043,7 +1043,7 @@ button{
   }
 
   @keyframes mymove{
-    from {left: -300px;}
+    from {left: -19rem;}
     to {left: 100%;}
   }
   .poster{
@@ -1095,7 +1095,7 @@ button{
 @media (max-width: 68rem) {
   
   @keyframes mymove{
-    from {left: -400px;}
+    from {left: -25px;}
     to {left: 100%;}
   }
   .wrapped{
