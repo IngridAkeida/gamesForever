@@ -1073,8 +1073,12 @@ input[type="radio"] {
     padding-top: 9rem;
   }
 
+  .navbar{
+    height: 9rem;
+  }
+
   .nav-logo img{
-    height: 7rem;
+    height: 6.5rem;
   }
 
   .poster{
