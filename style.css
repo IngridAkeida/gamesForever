@@ -945,6 +945,7 @@ input[type="radio"] {
   }
   .history-card{
     grid-template-columns: 1fr;
+    margin-top: 0;
   }
 }
 
