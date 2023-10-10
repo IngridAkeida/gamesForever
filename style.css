@@ -442,7 +442,10 @@ input[type="radio"] {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  background-color: #3582AA;
+  border-radius: 0.5rem;
 }
 
 .nav-history a:hover{
