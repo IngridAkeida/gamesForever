@@ -465,12 +465,12 @@ button{
   align-items: center;
   margin-top: 1rem;
   padding: 0.5rem 0;
-  background-color: var(--color-bg-primaryTr);
+  background-color: var(--color-bg-primary);
   border-radius: 0.5rem;
 }
 
 .nav-history a:hover{
-  color: var(--color-bg-secundary1);
+  color: var(--color-neon);
   font-weight: 800;
 }
 
