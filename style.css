@@ -84,9 +84,27 @@ button{
 
 .section--heading{
   padding: 0.5rem 0;
+  padding-left: 0.5rem;
   font-size: 1rem;
+  font-family: var(--font-title);
+  animation: myAnimation 5s infinite;
 }
 
+
+@keyframes myAnimation {
+  0% {
+  background-color: red;
+  }
+  25% {
+  background-color: green;
+  }
+  75% {
+  background-color: blue;
+  }
+  75% {
+  background-color: purple;
+  }
+}
 /*navbar*/
 
 .navbar{
@@ -833,9 +851,9 @@ button{
   width: 50%;
 }
 
-  .form{
-    width: 60%;
-  }
+.form{
+  width: 60%;
+}
   
 }
 
