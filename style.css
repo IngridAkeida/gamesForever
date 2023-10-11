@@ -37,6 +37,7 @@ img{
   --color-important2:#c94545;
   --color-decoration:#232323;
   --color-confirmation:#0a8a15;
+  --color-neon:#39FF14;
 
   /*fonts*/
   --font-title:'Pixelify Sans', cursive;
@@ -476,10 +477,11 @@ button{
 .history-card{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: var(--color-bg-primaryTr);
+  background-color: var(--color-bg-primary);
   border-radius: 0.5rem;
   padding: 0.5rem 0;
   margin-top: 1rem;
+  border: var(--color-neon) 0.25rem dotted;
 }
 
 .history-summary{
