@@ -88,19 +88,19 @@ button{
   padding-left: 0.5rem;
   font-size: 1rem;
   font-family: var(--font-title);
-  animation: myAnimation 5s infinite;
+  animation: myAnimation 2s infinite;
 }
 
 
 @keyframes myAnimation {
   0% {
-  background-color: red;
+  background-color: var(--color-important1);
   }
   25% {
-  background-color: green;
+  background-color: var(--color-neon);
   }
   75% {
-  background-color: blue;
+  background-color: var(--color-bg-secundary1);
   }
   75% {
   background-color: purple;
@@ -306,23 +306,9 @@ button{
   font-family: var(--font-title);
   font-size: 1rem;
   padding: 0.5rem 1rem;
-  animation: myAnimation 5s infinite;
+  animation: myAnimation 2.5s infinite;
 }
 
-@keyframes myAnimation {
-  0% {
-  background-color: red;
-  }
-  25% {
-  background-color: green;
-  }
-  75% {
-  background-color: blue;
-  }
-  75% {
-  background-color: purple;
-  }
-}
 
 /*Main games*/
 
@@ -574,7 +560,7 @@ button{
   position: relative;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  border-bottom: 1px dotted var(--color-bg-secondary2);
+  border-bottom: 1px dotted var(--color-neon);
 }
 
 .history-accordion li:nth-of-type(1){
@@ -676,6 +662,7 @@ button{
   gap: 0.5rem;
   height: 9rem;
   max-width: 95vw;
+  margin-bottom: 0.5rem;
 }
 
 .consoles-timeline-item{
@@ -691,7 +678,6 @@ button{
   scroll-snap-type: start;
 
   box-shadow: 0px 2px 10px var(--color-decoration);
-  border-radius: 0.2rem;
   background-color: var(--color-bg-secondary2);
   height: 8.5rem;
   max-width: 7rem;
